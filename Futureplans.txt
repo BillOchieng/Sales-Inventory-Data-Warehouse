@@ -1,0 +1,1 @@
+Apart from being a warehouse in sql, can automate anything using scripts? Powershell or Python

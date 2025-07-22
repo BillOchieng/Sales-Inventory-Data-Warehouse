@@ -38,3 +38,10 @@ st.info(
 ##  st.sidebar.title("Navigation")
 ##  st.image("image url", caption="image description")
 ##  st.video("url")
+
+# File Uploading and caching topics
+
+upload_file = st.file_uploader("upload a csv", type="csv")
+if upload_file:
+    df = pd.read_csv(upload_file)
+    st.dataframe(df)

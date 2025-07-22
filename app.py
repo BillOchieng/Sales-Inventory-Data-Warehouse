@@ -33,3 +33,8 @@ st.subheader("More Features Coming Soon!")
 st.info(
     "This section can include uploaded files, KPI cards, filters, or embedded media."
 )
+
+### media stuff and display widgets
+##  st.sidebar.title("Navigation")
+##  st.image("image url", caption="image description")
+##  st.video("url")

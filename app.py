@@ -45,3 +45,19 @@ upload_file = st.file_uploader("upload a csv", type="csv")
 if upload_file:
     df = pd.read_csv(upload_file)
     st.dataframe(df)
+
+
+st.title(" Text and Markdown")
+st.header("This is a header")
+st.subheader(" This a subheader")
+st.markdown("**bold**, *italic*, `code`, [link](url)")
+st.code("for i in range(5): print(i)", language="python")
+
+st.text_input("what is your name?")
+st.text_area("write something..")
+st.number_input("Pick a number", min_value=0, max_value=100)
+st.slider("Choose a range", 0, 100)
+st.selectbox("Select a fruits", ["Apple", "Banana", "Mango"])
+st.multiselect("Choose toppings", ["Cheese", "Tomato", "Olives"])
+st.radio("Pick one", ["Option A", "Option B"])
+st.checkbox("I agree to the terms")

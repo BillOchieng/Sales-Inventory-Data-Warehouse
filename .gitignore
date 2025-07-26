@@ -1,0 +1,36 @@
+# Bytecode / Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter/IPython
+.ipynb_checkpoints/
+
+# VS Code / PyCharm / IDE configs
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/config.toml
+.streamlit/credentials.toml
+
+# macOS system files
+.DS_Store
+
+# Uploaded files or large datasets
+*.csv
+*.xlsx
+*.mp3
+*.mp4
+
+# Logs
+*.log
+
+# Pip freeze output
+requirements.txt

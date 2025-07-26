@@ -1,3 +1,10 @@
+# If you're using a virtual environment (like venv/), always include that in .gitignore.
+
+# Don't track *.csv or *.xlsx unless it's demo/sample data.
+
+# If you use st.file_uploader(), make sure uploaded files aren't saved permanently in your project unless needed.
+
+
 # Bytecode / Python cache
 __pycache__/
 *.py[cod]
@@ -8,6 +15,9 @@ __pycache__/
 venv/
 env/
 .venv/
+
+newenv/
+
 
 # Jupyter/IPython
 .ipynb_checkpoints/
@@ -28,7 +38,6 @@ env/
 *.xlsx
 *.mp3
 *.mp4
-
 # Logs
 *.log
 

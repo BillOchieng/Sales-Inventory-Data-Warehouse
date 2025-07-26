@@ -1,4 +1,4 @@
-#!/Users/rawlings/Data-Warehouse-with-SQL-Server/newenv/bin/python3
+#!/Users/rawlings/Data-Warehouse-with-SQL-Server/newenv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

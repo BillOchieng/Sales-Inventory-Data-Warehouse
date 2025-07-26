@@ -1,3 +1,9 @@
+# streamlit	Core UI/dashboarding framework
+# pandas	Data manipulation, CSV handling
+# numpy	Random number generation, arrays
+# matplotlib	Used for static plotting (st.pyplot)
+# plotly	For interactive charts (st.plotly_chart)
+
 # Importing required packages
 import streamlit as st
 import pandas as pd

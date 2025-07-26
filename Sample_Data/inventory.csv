@@ -1,0 +1,4 @@
+ProductID,StockLevel,ReorderPoint,Warehouse
+101,30,10,WH1
+102,20,15,WH2
+103,50,20,WH1

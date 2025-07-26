@@ -1,0 +1,42 @@
+# Core libraries
+streamlit
+pandas
+numpy
+matplotlib
+plotly               # interactive charts
+seaborn              # statistical plots
+
+# SQL & Database
+sqlalchemy           # SQL engine + ORM layer
+psycopg2-binary      # PostgreSQL driver
+pyodbc               # SQL Server connector
+pymssql              # (Optional fallback) SQL Server connector
+
+# Data handling
+openpyxl             # Read/write .xlsx files
+xlrd                 # Read .xls files
+python-dotenv        # Environment variable management
+
+# Performance & Utilities
+tqdm                 # Progress bars
+requests             # HTTP requests
+validators           # Input validation
+redis                # Caching for API
+
+# API & Services
+fastapi
+uvicorn[standard]    # ASGI server for FastAPI
+
+# ETL & Migrations
+alembic              # DB migrations
+sqlalchemy-utils     # Model utilities (optional)
+
+# Analytics & Forecasting
+statsmodels          # Statistical models and forecasting
+
+# Testing & CI
+pytest               # Testing framework
+
+# App Enhancements
+streamlit-aggrid     # Interactive tables
+streamlit-authenticator # Authentication in Streamlit

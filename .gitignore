@@ -4,43 +4,39 @@
 
 # If you use st.file_uploader(), make sure uploaded files aren't saved permanently in your project unless needed.
 
-
-# Bytecode / Python cache
+# Python cache and bytecode
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
 
-# Virtual environments
+# Virtual environments (common names)
 venv/
 env/
 .venv/
 newenv/
 
-newenv/
-
-
-# Jupyter/IPython
+# Jupyter/IPython notebooks checkpoints
 .ipynb_checkpoints/
 
-# VS Code / PyCharm / IDE configs
+# IDE settings
 .vscode/
 .idea/
-
-# Streamlit
-.streamlit/config.toml
-.streamlit/credentials.toml
 
 # macOS system files
 .DS_Store
 
-# Uploaded files or large datasets
-*.csv
-*.xlsx
-*.mp3
-*.mp4
 # Logs
 *.log
 
-# Pip freeze output
-requirements.txt
+# Uploaded files or large datasets (uncomment if needed)
+# *.csv
+# *.xlsx
+# *.mp3
+# *.mp4
+
+# Streamlit secrets (optional: only ignore if containing sensitive data)
+.streamlit/credentials.toml
+
+# If you have secrets or config files, add them here (but don't ignore config you want to share!)
+# .env

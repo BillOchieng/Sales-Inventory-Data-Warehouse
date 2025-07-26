@@ -39,9 +39,7 @@ bash
 Copy
 Edit
 python3 -m venv newenv
-source newenv/bin/activate  # macOS/Linux
-# OR
-newenv\Scripts\activate     # Windows
+source newenv/bin/activate  # macOS/Linux -- newenv\Scripts\activate     # Windows
 3. Install Requirements
 bash
 Copy

@@ -40,3 +40,25 @@ newenv/
 
 # If you have secrets or config files, add them here (but don't ignore config you want to share!)
 # .env
+# Ignore SQLite database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Ignore database migration/backup files
+*.db-journal
+*.db-wal
+*.db-shm
+*.bak
+*.backup
+
+# Ignore local secrets (if any)
+.env
+.env.*
+.secrets.toml
+
+# Ignore Streamlit secrets/configs if you store local secrets
+.streamlit/secrets.toml
+
+# If you keep example/sample data, allow only specific files
+# !Sample_Data/sample.csv

@@ -9,6 +9,12 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
+import sqlite3
+
+conn = sqlite3.connect("warehouse.db")
+# Use conn to read/write as needed
+
+
 # --- Landing Page ---
 st.title("Hello, Finance!")
 st.write(":grin: This is your first Streamlit finance app")

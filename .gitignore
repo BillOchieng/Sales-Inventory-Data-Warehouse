@@ -41,9 +41,9 @@ newenv/
 # If you have secrets or config files, add them here (but don't ignore config you want to share!)
 # .env
 # Ignore SQLite database files
-*.db
-*.sqlite
-*.sqlite3
+# *.db
+# *.sqlite
+# *.sqlite3
 
 # Ignore database migration/backup files
 *.db-journal
